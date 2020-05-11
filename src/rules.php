@@ -7,5 +7,6 @@ return [
     'array_syntax' => ['syntax' => 'short'],
     'final_class' => false,
     'new_with_braces' => true,
+    'ordered_imports' => ['sort_algorithm' => 'length']
     // ...
 ];
