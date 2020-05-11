@@ -8,5 +8,5 @@ return [
     'final_class' => false,
     'new_with_braces' => true,
     'ordered_imports' => ['sort_algorithm' => 'length'],
-    'concat_space' => false,
+    'concat_space' => ['spacing' => 'one'],
 ];
