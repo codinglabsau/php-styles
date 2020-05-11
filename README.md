@@ -34,7 +34,7 @@ And do a proper fix like this:
 `./vendor/bin/php-cs-fixer fix`
 
 ## Contributing
-This package opinionated to our preferred code style at Coding Labs and subject to change, so use with caution!
+This package is opinionated to our preferred code style at Coding Labs and subject to change, so use with caution!
 
 ## Credits
 - [Steve Thomas](https://github.com/stevethomas)
