@@ -10,9 +10,11 @@ $ composer require codinglabsau/php-styles
 ```
 
 ## Usage
-Create a .php_cs.dist that looks like this:
+Create a .php_cs.dist in the root of the project:
 
 ```php
+<?php
+
 $finder = PhpCsFixer\Finder::create()
     ->in([
         __DIR__.'/app',
@@ -28,7 +30,7 @@ return CodingLabs\styles($finder);
 Note the second argument for `styles` is an array of [rules](https://mlocati.github.io/php-cs-fixer-configurator/) to override the defaults. 
 
 Do a dry run like this (handy for CI): 
-`./vendor/bin/php-cs-fixer --dry-run`
+`./vendor/bin/php-cs-fixer fix --dry-run`
 
 And do a proper fix like this: 
 `./vendor/bin/php-cs-fixer fix`
