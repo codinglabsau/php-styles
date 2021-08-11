@@ -10,7 +10,7 @@ $ composer require codinglabsau/php-styles
 ```
 
 ## Usage
-Create a .php_cs.dist in the root of the project:
+Create `.php-cs-fixer.dist.php` in the root of the project:
 
 ```php
 <?php
