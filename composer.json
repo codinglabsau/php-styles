@@ -1,9 +1,9 @@
 {
   "name": "codinglabsau/php-styles",
-  "description": "Tim's shared PHP style rules for PHP-CS-Fixer",
+  "description": "Coding Labs styles for PHP-CS-Fixer",
   "license": "MIT",
   "require": {
-    "friendsofphp/php-cs-fixer": "^2.0"
+    "friendsofphp/php-cs-fixer": "^3.0"
   },
   "autoload": {
     "files": [
