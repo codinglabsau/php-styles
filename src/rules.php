@@ -1,7 +1,5 @@
 <?php
 
-// last reviewed: v2.16.3 Yellow Bird
-
 return [
     '@PSR2' => true,
     'array_syntax' => ['syntax' => 'short'],
@@ -9,4 +7,5 @@ return [
     'new_with_braces' => true,
     'ordered_imports' => ['sort_algorithm' => 'length'],
     'concat_space' => ['spacing' => 'one'],
+    'single_line_comment_spacing' => true,
 ];
