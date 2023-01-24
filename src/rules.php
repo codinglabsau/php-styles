@@ -8,4 +8,5 @@ return [
     'ordered_imports' => ['sort_algorithm' => 'length'],
     'concat_space' => ['spacing' => 'one'],
     'single_line_comment_spacing' => true,
+    'no_unused_imports' => true,
 ];
