@@ -3,7 +3,7 @@
   "description": "Coding Labs styles for PHP-CS-Fixer",
   "license": "MIT",
   "require": {
-    "friendsofphp/php-cs-fixer": "^3.14"
+    "friendsofphp/php-cs-fixer": "^3.57"
   },
   "autoload": {
     "files": [
