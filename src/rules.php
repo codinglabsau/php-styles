@@ -2,11 +2,17 @@
 
 return [
     '@PSR2' => true,
-    'array_syntax' => ['syntax' => 'short'],
+    'array_syntax' => [
+        'syntax' => 'short',
+    ],
     'final_class' => false,
     'new_with_braces' => true,
-    'ordered_imports' => ['sort_algorithm' => 'length', 'imports_order' => ['const', 'class', 'function']],
+    'ordered_imports' => [
+        'sort_algorithm' => 'length',
+        'imports_order' => ['const', 'class', 'function'],
+    ],
     'concat_space' => ['spacing' => 'one'],
     'single_line_comment_spacing' => true,
+    'single_line_empty_body' => true,
     'no_unused_imports' => true,
 ];
